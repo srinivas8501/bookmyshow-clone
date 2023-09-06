@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+form{
+    border: 2px inset rgba(54, 232, 238, 0.425);
+    width: auto;
+    padding: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+    background-color: rgb(111, 124, 124);
+    box-shadow:  6px 6px 6px rgb(111, 124, 124);
+    border-radius: 8px;
+   
+
+}   
+body{
+           background-color:#f5f5f5;
+           background-size: cover;
+           background-repeat: no-repeat;
+
+
+
+}
+
+label{
+            color:rgb(245, 244, 244);
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: capitalize;
+            
+}
+input[type=text],
+input[type=password]{
+            padding-left: 10px; 
+            height: 40px;
+            width: 250px;
+            border-radius: 5px;
+            background-color: white;
+            font-weight:bold;
+            border: 1px outset black;
+            
+}
+a{
+            text-decoration: none;
+}
+input[type=submit]{
+             width: 120px;
+             height: 40px;
+             font-weight: bold;
+             background-color:orangered;
+             color: white;
+             border: none;
+             border-radius: 5px;
+             font-size: 1.2rem;
+}   
+input[type=reset]{
+             width: 120px;
+             height: 40px;
+             font-weight: bold;  
+             background-color: rgb(90, 226, 26);
+             color: white;
+             border: none;
+             border-radius: 5px;
+             font-size: 1.2rem;
+}
+h1{
+            color: rgb(10, 36, 36);
+            font-size: 4rem;
+            text-align: center;
+            
+
+}
+h1::first-letter{
+            color: orangered;
+}
+input[type=submit]:hover{
+           background: green;
+           
+}
+input[type=reset]:hover{
+           background: rgb(59, 176, 230);
+}
+@media screen and (max-width: 500px) {
+    h1{
+        width: 80%;
+        }
+        form {
+        width: 100%;
+        background-color: blue;
+        }
+}
